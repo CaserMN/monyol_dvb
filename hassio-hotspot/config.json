@@ -25,6 +25,5 @@
     "config:rw",
     "ssl:rw"
   ],
-  "init": false,
-
+  "init": false
 } 
