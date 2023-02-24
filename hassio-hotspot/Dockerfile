@@ -14,7 +14,6 @@ RUN apk update && apk add --no-cache    \
 #    bash jq iw net-tools                \
 #    sudo busybox-extras                 \
 #    hostapd networkmanager iptables     \
-    linux-firmware                      \
     linux-firmware-other                \
 #    linux-firmware-ath6k                \
 #    linux-firmware-ath10k               \
