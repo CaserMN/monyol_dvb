@@ -11,7 +11,7 @@
   "apparmor": false,
   "host_dbus": true,
   "full_access": true,
-  "privileged": true",
+  "privileged": true,
   "map": [
     "config:rw",
     "ssl:rw"
