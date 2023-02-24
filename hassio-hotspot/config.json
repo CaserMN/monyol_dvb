@@ -19,7 +19,8 @@
     "SYS_NICE"
   ],
   "devices": [
-    "/dev/mem"
+    "/dev/mem",
+  "/dev/bus/usb/001/014"
   ],
   "map": [
     "config:rw",
