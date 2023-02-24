@@ -11,16 +11,7 @@
   "apparmor": false,
   "host_dbus": true,
   "full_access": true,
-  "privileged": [
-    "NET_ADMIN",
-    "SYS_ADMIN",
-    "SYS_RAWIO",
-    "SYS_TIME",
-    "SYS_NICE"
-  ],
-  "devices": [
-    "/dev/mem",
-  "/dev/bus/usb/001/014"
+  "privileged: true",
   ],
   "map": [
     "config:rw",
