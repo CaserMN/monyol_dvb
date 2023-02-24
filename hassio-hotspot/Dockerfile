@@ -9,12 +9,13 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV LANG C.UTF-8
 
 # Install requirements for add-on
-#RUN apk update && apk add --no-cache    \
+RUN apk update && apk add --no-cache    \
 #    avahi                               \
 #    bash jq iw net-tools                \
 #    sudo busybox-extras                 \
 #    hostapd networkmanager iptables     \
-#    linux-firmware-other                \
+    linux-firmware
+    linux-firmware-other                \
 #    linux-firmware-ath6k                \
 #    linux-firmware-ath10k               \
 #    linux-firmware-ath9k_htc &&         \
