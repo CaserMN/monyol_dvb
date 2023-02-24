@@ -1,6 +1,6 @@
 {
   "name": "Hassio Hotspot",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "slug": "hassio-hotspot",
   "description": "Cargador de firmware para dvb-sub-dib0700",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
