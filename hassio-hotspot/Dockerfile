@@ -14,13 +14,13 @@ RUN apk update && apk add --no-cache    \
 #    bash jq iw net-tools                \
 #    sudo busybox-extras                 \
 #    hostapd networkmanager iptables     \
-    linux-firmware-other                \
+    linux-firmware-other                
 #    linux-firmware-ath6k                \
 #    linux-firmware-ath10k               \
 #    linux-firmware-ath9k_htc &&         \
 #    rm -rf /var/cache/apk/*
 
-COPY dvb-usb-dib0700-1.20.fw /lib/firmware/dvb-usb-dib0700-1.20.fw
+#COPY dvb-usb-dib0700-1.20.fw /lib/firmware/dvb-usb-dib0700-1.20.fw
 #COPY udhcpd.conf /etc/udhcpd.conf
 #COPY run.sh /
 #RUN chmod a+x /run.sh
